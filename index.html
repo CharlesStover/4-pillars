@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Debt Settlement | Melbourne, Victoria</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Stop sinking in debt. 4 Pillars offers debt consolidation and debt settlement services. We help people avoid bankruptcy." />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link href="include/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+
+if (location.href.match(/\?sent/))
+  alert("Your debt assessment request was sent successfully.");
+
+var formError = function(m, t) {
+  var formErrorT = document.getElementById("form-error" + t);
+  formErrorT.innerHTML = m;
+  formErrorT.style.display = "block";
+  return true;
+};
+
+function validateForm(t) {
+  if (document.forms["4pillarsform" + t]["first_name"].value.match(/^\s*$/)) {
+    formError("Please enter your first name.", t);
+    document.forms["4pillarsform" + t]["first_name"].focus();
+    return false;
+  }
+  
+  if (document.forms["4pillarsform" + t]["last_name"].value.match(/^\s*$/)) {
+    formError("Please enter your last name.", t);
+    document.forms["4pillarsform" + t]["last_name"].focus();
+    return false;
+  }
+  if (
+    !document.forms["4pillarsform" + t]["phone_ac"].value.match(/^\d{3}$/) ||
+    !document.forms["4pillarsform" + t]["phone_mid"].value.match(/^\d{3}$/) ||
+    !document.forms["4pillarsform" + t]["phone_end"].value.match(/^\d{4}$/)
+  ) {
+    formError("Please enter your phone number.", t);
+    document.forms["4pillarsform" + t]["phone_ac"].focus();
+    return false;
+  }
+  if (!document.forms["4pillarsform" + t]["email"].value.match(/^.+\@.+\..{2,8}$/)) {
+    formError("Please enter your email address.", t);
+    document.forms["4pillarsform" + t]["email"].focus();
+    return false;
+  }
+  if (
+    document.forms["4pillarsform" + t]["unsecured_debt"].selectedIndex==0 ||
+    document.forms["4pillarsform" + t]["unsecured_debt"].selectedIndex==1
+  ) {
+    formError("Enter your unsecured debt.", t);
+    return false;
+  }
+  return true;
+}
+
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <span id="white_box_top_curve">&nbsp;</span>
+      <div class="white_section_bg">
+        <div id="top_white_container">
+          <div id="header">
+            <div class="logo">
+              <h1><img src="include/logo.gif" width="236" height="43" alt="logo" /></h1>
+            </div>
+            <div class="header_content">
+              <ul>
+                <li class="second">24/7 Toll-Free</li>
+              </ul>
+              <span id="PhoneNumber1" style="display: none">1-866-690-DEBT</span> 
+            </div>
+          </div>
+          <div id="heading_one">
+            <h2>Canada’s largest debt restructuring company <br />that works on behalf of the debtor</h2>
+          </div>
+          <div id="page">
+            <div class="page_section_one">
+              <div class="left_sec">
+                <div class="important_points">
+                  <ul>
+                    <li>Reduce your total debt by up to 75%</li>
+                    <li>Consolidate into one low monthly payment</li>
+                    <li>Eliminate your debt in as little as 24-48 months</li>
+                    <li>Get on a plan to improve your credit rating</li>
+                    <li>Last year we restructured over $110 million</li>
+                    <li>Over 50 offices across Canada to serve you</li>
+                  </ul>
+                </div>
+                <div class="graph"> <img src="include/graph.jpg" alt="graph" /> </div>
+              </div>
+              <div class="right_sec">
+                <div class="free_debt">
+                  <div class="shade_repeat">
+                    <form name="4pillarsform" action="contact-form-handler.php" label="4pillarsform" method="post" onSubmit="return validateForm('');">
+                      <div style="color : red; font-weight : bold; margin-left : 10px; padding-bottom : 10px; display: none;" id="form-error"></div>
+
+                      <input name="se" value="" type="hidden" />
+                      <input name="kmca" value="" type="hidden" />
+                      <input name="kmag" value="" type="hidden" />
+                      <input name="kmkw" value="" type="hidden" />
+                      <input name="kmmt" value="" type="hidden" />
+
+                      <fieldset>
+                        <div class="form_section">
+                          <ul>
+                            <li>
+                              <label><img src="include/first_name_text.png"  alt=" " /></label>
+                              <div class="text_box01">
+                                <input type="text" name="first_name" value=""/>
+                              </div>
+                            </li>
+                            <li>
+                              <label><img src="include/last_name_text.png"  alt=" " /></label>
+                              <div class="text_box01">
+                                <input type="text" name="last_name" value=""/>
+                              </div>
+                            </li>
+                            <li>
+                              <label><img src="include/phone_text.png"  alt=" " /></label>
+                              <div class="text_box02">
+                                <input type="text" name="phone_ac" size="3" maxlength="3" value=""/>
+                              </div>
+                              <em>&nbsp;</em>
+                              <div class="text_box02">
+                                <input type="text" name="phone_mid" size="3" maxlength="3" value=""/>
+                              </div>
+                              <em>&nbsp;</em>
+                              <div class="text_box03">
+                                <input type="text" name="phone_end" size="4" maxlength="4" value=""/>
+                              </div>
+                            </li>
+                            <li>
+                              <label><img src="include/email_text.png"  alt=" " /></label>
+                              <div class="text_box01">
+                                <input type="text" name="email" value=""/>
+                              </div>
+                            </li>
+              
+                            <li>
+                              <label><img src="include/unsecured_data_text.png"  alt=" " /></label>
+                              <select name="unsecured_debt" id="unsecured_debt">
+                                <option value selected>--Please Select--</option>
+                                <option class="red" disabled="disabled">(Must Be $10k+ To Qualify)</option>
+                                <option value="7499">$0 - $7,499</option>
+                                <option value="9999">$7,500 - $9,999</option>
+                                <option value="14999">$10,000 - $14,999</option>
+                                <option value="19999">$15,000 - $19,999</option>
+                                <option value="29999">$20,000 - $29,999</option>
+                                <option value="39999">$30,000 - $39,999</option>
+                                <option value="49999">$40,000 - $49,999</option>
+                                <option value="59999">$50,000 - $59,999</option>
+                                <option value="69999">$60,000 - $69,999</option>
+                                <option value="79999">$70,000 - $79,999</option>
+                                <option value="89999">$80,000 - $89,999</option>
+                                <option value="99999">$90,000 - $99,999</option>
+                                <option value="100000">More Than $100,000</option>
+                              </select>             
+                            </li>
+                          </ul>
+                          <div class="get_debt_btn">
+                            <input type="submit" name="" value="" />
+                          </div>
+                          <span class="respect_privacy"><em>We Respect Your Privacy</em></span>
+                          <div class="secured_icon"> <img src="include/accredated_bussiness_btn.gif" width="99" height="39" alt="bussiness" /> <img src="include/secured_btn.gif" width="99" height="39" alt="securde" class="secured_btn"/> </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <span class="bottom_shade"></span>
+                  <div>
+                    <div id="blue_form_cover"> <img src="include/img_text01.png"  alt=" "  class="img_text01"/> <img src="include/img_text02.png" alt=" " class="img_text02"/> </div>
+                  </div>
+                  <div><span id="arrow">&nbsp;</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="page_section_two"> 
+              <img src="include/disclaimer.gif" align="middle" />
+            </div>
+            <div class="page_section_three">
+              <div class="left_section">
+                <div class="left_top_curve">
+                  <div class="left_bottom_curve">
+                    <div class="common_sec">
+                      <img src="include/thumb01.gif" width="65" height="67" alt=" thumb" />
+                      <p>"4 Pillars reduced our $62,000 debt to $24,000 which we 
+                        are repaying in 48 interest free monthly installments. The 
+                        stress and worries are over."</p>
+                      <span><strong>Steve W, Melbourne, Victoria</strong></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right_section">
+                <div class="right_top_curve">
+                  <div class="right_bottom_curve">
+                    <div class="common_sec">
+                      <img src="include/thumb02.gif" alt=" thumb" />
+                      <p>"We were $39K in debt and going downhill fast. 4 Pillars 
+                          was able to arrange for a debt settlement proposal that 
+                          reduced our entire debt to 36 monthly payments of $350!"</p>
+                      <span><strong>Randy N, Melbourne, Victoria</strong></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page_section_four">
+              <h4>What Is Debt Settlement?</h4>
+              <p>Debt settlement, also known as debt arbitration, debt negotiation or debt restructuring is a debt relief program where your creditors agree to substantially reduce your unsecured debt (such as credit card debt), allowing you to avoid bankruptcy and the adverse effects it can bring to your credit rating. Debt settlement can often reduce your debt balances by up to 75%, while lowering your monthly payments during the process.</p>
+              <h4>Is Debt Settlement Right For You?</h4>
+              <p>Debt settlement is suitable for people who have unsecured debts, such as credit cards bills since if you have secured your debts against some form of collateral, your creditors will be able to get their money back from the sale of your assets. Debt settlement is right for individuals or families who: 1) Cannot meet their monthly minimum service payments of $10,000 or more in unsecured debt. 2) Prefer to avoid bankruptcy and the stigma that comes with it. 3) Have available cash flow to warrant a repayment schedule (at 0% interest) over a 12 to 48 month period. 4) Would like to relieve stress, reduce debt and take control of their finances. </p>
+              <h4>Why Use 4 Pillars For Debt Settlement?</h4>
+              <p class="last">We act as a mediator between you and your creditors, negotiating a new repayment schedule on your behalf and saving you thousands in the process. Since 1998, 4 Pillars has helped well over 10,000 Canadians become debt free with settlements averaging 25% of original debts owed. We negotiate the lowest possible settlements for debtors, preventing claims of bankruptcy. To date we have assisted our clients in settling almost $1 Billion in consumer debt. For a free, confidential debt assessment call 1-866-690-DEBT or fill out the form above.</p>
+            </div>
+            <span id="brown_border">&nbsp;</span>
+            <div id="bottom_blue_section">
+              <div class="inner_container">
+                <form name="4pillarsform2" action="contact-form-handler.php" label="4pillarsform2" method="post" onSubmit="return validateForm('2');">
+                  <input name="se" value="" type="hidden" />
+                  <input name="kmca" value="" type="hidden" />
+                  <input name="kmag" value="" type="hidden" />
+                  <input name="kmkw" value="" type="hidden" />
+                  <input name="kmmt" value="" type="hidden" />
+                  <fieldset>
+                    <div class="col01"> <img src="include/free_debt_img.png" width="165" height="46" alt=" " /> </div>
+                      <div class="form_section bottom_forms">
+                        <ul>
+                          <li>
+                            <label><img src="include/first_name_text2.png"  alt=" " /></label>
+                            <div class="text_box01">
+                              <input type="text" name="first_name" tabindex="1" value=""/>
+                            </div>
+                          </li>
+                          <li class="pad_01">
+                            <label><img src="include/phone_text2.png"  alt=" " /></label>
+                            <div class="text_box02">
+                              <input type="text" name="phone_ac" tabindex="3" size="3" maxlength="3" value=""/>
+                            </div>
+                            <em>&nbsp;</em>
+                            <div class="text_box02">
+                              <input type="text" name="phone_mid" tabindex="4" size="3" maxlength="3" value=""/>
+                            </div>
+                            <em>&nbsp;</em>
+                            <div class="text_box03">
+                              <input type="text" name="phone_end" tabindex="5" size="4" maxlength="4" value=""/>
+                            </div>
+                          </li>
+                          <li>
+                            <label><img src="include/last_name_text2.png"  alt=" " /></label>
+                            <div class="text_box01">
+                              <input type="text" name="last_name" tabindex="2" value=""/>
+                            </div>
+                          </li>
+                          <li class="pad_01">
+                            <label><img src="include/email_text2.png"  alt=" " /></label>
+                            <div class="text_box01">
+                              <input type="text" name="email" tabindex="6" value=""/>
+                            </div>
+                          </li>
+                          <li>
+                            <label><img src="include/unsecured_data_text2.png"  alt=" " /></label>
+                            <select name="unsecured_debt" tabindex="9" id="unsecured_debt">
+                              <option value selected>--Please Select--</option>
+                              <option class="red" disabled>(Must Be At Least $10K)</option>
+                              <option value="7499">$0 - $7,499</option>
+                              <option value="9999">$7,500 - $9,999</option>
+                              <option value="14999">$10,000 - $14,999</option>
+                              <option value="19999">$15,000 - $19,999</option>
+                              <option value="29999">$20,000 - $29,999</option>
+                              <option value="39999">$30,000 - $39,999</option>
+                              <option value="49999">$40,000 - $49,999</option>
+                              <option value="59999">$50,000 - $59,999</option>
+                              <option value="69999">$60,000 - $69,999</option>
+                              <option value="79999">$70,000 - $79,999</option>
+                              <option value="89999">$80,000 - $89,999</option>
+                              <option value="99999">$90,000 - $99,999</option>
+                              <option value="100000">More Than $100,000</option>
+                            </select>  
+                        </li>
+                        <li id="form-error2" style="color : red; font-weight : bold; display: none;"></li>
+                      </ul>
+                    </div>
+                    <div class="col03">
+                    <div class="get_debt_btn2">
+                      <input type="submit" name="" tabindex="10" value="" />
+                    </div>
+                    <span class="respect_privacy_last"><em>We Respect Your Privacy</em></span> </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="white_box_bottom_curve"><span class="blue_bottom_curve">&nbsp;</span> </div>
+      <span id="bottom_links">
+        <center>
+          <p style="font-size:8pt; color:6e6d6d">
+            <a href="http://4pillars.ca/home/process">The Process</a> | <a href="http://4pillars.ca/home/assessment">Assessment</a> | <a href="http://4pillars.ca/home/questions">FAQ</a> | <a href="http://4pillars.ca/home/company">About Us</a> | <a href="http://4pillars.ca/home/privacy">Privacy Policy</a> | <a href="http://4pillars.ca/home/contact">Contact Us</a><br />
+            Copyright 2011, 4 Pillars Consulting Inc. All rights reserved.
+          </p>
+        </center>
+      </span>
+    </div>
+    <script type="text/javascript">
+
+var err = location.search.match(/error=(\d+)/);
+if (err) {
+  var fe = document.getElementById('form-error');
+  var fe2 = document.getElementById('form-error2');
+  fe.style.setProperty('display', 'block');
+  fe2.style.setProperty('display', 'block');
+  var errs = [ 'Please enter your first name.', 'Please enter your last name.', 'Please enter your phone number.', 'Please enter your email address.', 'Enter your unsecured debt.' ];
+  fe.innerHTML = errs[parseInt(err[1], 10) - 1];
+  fe2.innerHTML = errs[parseInt(err[1], 10) - 1];
+}
+
+function showTFNs() {
+if (document.getElementById("PhoneNumber1"))
+  document.getElementById("PhoneNumber1").style.display = "inline";
+}
+setTimeout("showTFNs()",1000);
+
+    </script> 
+    <script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4903426-21']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+    </script>
+  </body>
+</html>
