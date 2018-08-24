@@ -7,3 +7,6 @@ This repository exists as an archive and window into the past, not a demonstrati
 * JavaScript - originally handled by PHP, error display was migrated to JavaScript for this repo such that the index is purely client-side
 * PHP - for sending email
 * XHTML
+
+## Demo
+[View on GitHub Pages.](https://charlesstover.github.io/4-pillars/)
